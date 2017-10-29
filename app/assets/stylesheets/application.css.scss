@@ -17,6 +17,9 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
 //Typography Styles
 h1, h2, h3 {
   font-family: 'Maven Pro', sans-serif;
@@ -38,7 +41,7 @@ h1, h2, h3 {
 }
 
 .home-callout > h1 {
-  font-size: 4em;
+  font-size: 5em;
 }
 
 .home-callout > h3 {
@@ -52,11 +55,11 @@ h1, h2, h3 {
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a  {
-  color: white;
+  color: black;
   
   &:hover {
-    color: white;
-    opacity: 0.75;
+    color: black;
+    opacity: 0.5;
   }
   
 }
