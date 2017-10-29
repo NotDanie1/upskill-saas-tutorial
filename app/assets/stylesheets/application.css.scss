@@ -73,6 +73,18 @@ li > a {
     opacity: 0.5;
   }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid black;
+  
+  &:hover, &:focus {
+    background-color: #a8e063;
+  }
+}
 /* Made redundant by Sass
 
 .navbar-default .navbar-brand:hover,
